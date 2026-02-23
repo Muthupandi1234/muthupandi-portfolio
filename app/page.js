@@ -17,9 +17,11 @@ async function getData() {
 
   const data = await res.json();
 
-  const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
+  const normalized = data
+    .map((item) => ({ ...item, cover_image: item.cover_image || '/image/screen.png' }))
+    .sort(() => Math.random() - 0.5);
 
-  return filtered;
+  return normalized;
 };
 
 export default async function Home() {

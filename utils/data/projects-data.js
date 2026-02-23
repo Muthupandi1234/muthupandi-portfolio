@@ -1,52 +1,59 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+   {
+    id: 1,
+    name: 'AI Chat Bot using Python',
+    description: "Designed and developed an AI-powered Chat Bot using Python to provide intelligent and automated responses to user queries. Implemented Natural Language Processing (NLP) techniques for understanding user input and generating context-aware replies. Integrated APIs and machine learning models to enhance conversational accuracy. Ensured scalable architecture, efficient response handling, and user-friendly interaction design.",
+    tools: ['Python', 'Machine Learning', 'NLP', 'Flask', 'REST API', 'GitHub'],
+    role: 'Developer',
+    code: '',
+    demo: '',
+},
+{
+    id: 2,
+    name: 'Age Calculator',
+    description: "Developed a simple and responsive Age Calculator application using JavaScript to compute age based on user-selected date of birth with real-time validation and accurate results.",
+    tools: ['HTML', 'CSS', 'JavaScript', 'GitHub'],
+    role: 'Front End Developer',
+    code: '',
+    demo: '',
+},
+{
+    id: 3,
+    name: 'Music Player Web Application',
+    description: "Designed and developed a responsive Music Player Web Application that allows users to play, pause, skip, and manage audio tracks seamlessly. Implemented dynamic playlist functionality, interactive UI controls, and real-time audio management using JavaScript. Ensured smooth user experience with optimized performance and responsive design across devices.",
+    tools: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'GitHub'],
+    role: 'Front End Developer',
+    code: '',
+    demo: '',
+},
+{
+    id: 4,
+    name: 'RK Manswar – E-Commerce Web Application',
+    description: "Developed RK Manswar, a responsive E-Commerce Web Application featuring product listing, cart management, user authentication, and secure online payment integration using Razorpay. Implemented backend logic, database connectivity, order management system, and optimized user experience for smooth and reliable transactions.",
+    tools: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'Razorpay', 'GitHub'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+},
+
+{
+        id: 5,
+        name: 'AAC Blog Website',
+        description: "Designed and developed the AAC Blog Website as an individual full stack project to manage and publish educational and informational content. Implemented admin authentication, blog CRUD operations, image upload features, and database integration. Ensured responsive UI design, optimized website performance, and maintained structured content management for better usability and scalability",
+        tools:['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'MySQL', 'GitHub'],
+        role: 'Full Stack Web Developer',
         code: '',
         demo: '',
     },
+    
     {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        id: 6,
+        name: 'AAC Hostel Online Fees Payment Portal',
+        description: 'I independently designed and developed the AAC Hostel Online Fees Payment Portal to simplify hostel fee payment and management. The system allows students to securely submit hostel admission details and pay fees through online payment integration. Implemented user-friendly forms, payment status tracking, and automated receipt generation. Developed admin dashboard for managing student records, verifying payments, and monitoring transactions. Integrated database management for secure storage of student and payment data while ensuring smooth performance and responsive design.',
+        tools: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'MySQL', 'Razorpay / Payment Gateway Integration','TCPDF','GitHub'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
     },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+    
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
